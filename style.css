@@ -1,0 +1,22 @@
+body {
+  background-color: 57737A;
+  color: white;
+  font-size: 38;
+  text-align:center;
+  font-family: 'Neucha', cursive;
+font-family: 'Sofia', cursive;
+}
+.tab button {
+  font-family: 'Merienda', cursive;
+}
+.tab{
+  color: FDE8E9
+}
+
+h1 {color: C3DFE0; font-size: 60px; text-align:center; font-family: 'Goblin One', cursive;}
+h3{color: E3BAC6; text-align:center;font-size: 60}
+h4 {background-color: C3DFE0 ; text-align:center;font-size: 40}
+img {
+  margin-left: auto;
+  margin-right: auto;}
+p {text-align: center;}
