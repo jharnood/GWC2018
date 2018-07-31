@@ -1,0 +1,56 @@
+<DOCTYPE html>
+<html>
+<h1>
+<p>
+  <strong>
+ActiFists
+</strong>
+</p>
+</h1>
+  <head>
+
+    <link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet" />
+    <link href="./jquery.multiselect.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./jquery.multiselect.js"></script>
+</head>
+<body>
+    <select id="mySelect" name="basic[]" multiple="multiple" class="3col active">
+        <option value=<a hidden class="twitter-timeline" href="https://twitter.com/TIMESUPNOW?ref_src=twsrc%5Etfw">@TIMESUPNOW</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </option>
+        <option value=<a class="twitter-timeline" href="https://twitter.com/TIMESUPNOW?ref_src=twsrc%5Etfw">Tweets by TIMESUPNOW</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></option>
+        <option value="AZ">Arizona</option>
+        <option value="AR">Arkansas</option>
+        <option value="CA">California</option>
+        <option value="CO">Colorado</option>
+        <option value="CT">Connecticut</option>
+        <option value="DE">Delaware</option>
+
+    </select>
+    <button type="button" onclick="myFunction()">Search</button>
+
+    <p id="demo"></p>
+
+    <script>
+    function myFunction() {
+        var x = document.getElementById("mySelect").value;
+        document.getElementById("demo").innerHTML = x;
+    }
+
+    $(function () {
+        $('select[multiple].active.3col').multiselect({
+            columns: 3,
+            placeholder: 'Select Movements',
+            search: true,
+            searchOptions: {
+                'default': 'Search Movements'
+            },
+            selectAll: true
+        });
+
+    });
+
+</script>
+<a class="twitter-timeline" href="https://twitter.com/TIMESUPNOW?ref_src=twsrc%5Etfw">Tweets by TIMESUPNOW</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
